@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"type="text/css"href="style.css">
+</head>
+<script>
+    function form(){
+        alert('this.value');
+    }
+</script>
+
+<body>
+    <div id="form">
+        <h1 id="h1">Keyboard Event</h1>
+        <p>Onkeydown</p>
+        <input type="text"onkeydown="document.getElementById('form').style.background=this.value">
+        <p>Onkeyup</p>
+        <input type="text"onkeyup="document.getElementById('form').style.background=this.value">
+        <p>Onkeypress</p>
+        <input type="text"onkeypress="document.getElementById('form').style.background=this.value">
+    </div>
+    
+</body>
+</html>
