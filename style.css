@@ -1,0 +1,28 @@
+body{
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+   background:url("ty.jpg");
+   background-size: 500px;
+   background-position: -1600px -400px;
+}
+#form{
+    width: 250px;
+    margin: 100px auto 0 auto;
+    border:2px solid #000;
+    border-radius: 15px;
+    padding: 25px;
+    background-color: rgba(0,0,0,.5);
+    color:#fff;
+    box-shadow: -2px 2px 15px #000;
+}
+p,input{
+    font-size: 20px;
+}
+input{
+    width:225px;
+    border:0px solid #000;
+    border-radius: 5px;
+    padding:8px;
+    background-color:#fff;
+    box-shadow: inset -2px 2px 2px 5px #000;
+
+}
